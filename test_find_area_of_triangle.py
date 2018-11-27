@@ -10,6 +10,7 @@ class FindAreaOfTriangle():
     def calculate_area(self, a, b, c):
         sides = [a, b, c]
         base = max(sides)
+        # remove the base side from the sides list
         sides.remove(base)
         height = self.calculate_height(base, sides)
         return (height * base) / 2
