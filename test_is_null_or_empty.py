@@ -2,7 +2,7 @@ import unittest
 
 class IsNullOrEmpty():
     def validate(self, value):
-        pass
+        return value is None or len(value) is 0
 
 class TestIsNullOrEmpty(unittest.TestCase):
     def setUp(self):
