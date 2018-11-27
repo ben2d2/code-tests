@@ -11,5 +11,8 @@ class TestIsNullOrEmpty(unittest.TestCase):
     def test_false_case(self):
         self.assertFalse(self._class.validate("Some string..."))
 
+    def test_empty_string(self):
+        self.assertTrue(self._class.validate(""))
+
 if __name__ == '__main__':
     unittest.main()
