@@ -12,8 +12,8 @@ class FindAreaOfTriangle():
         base = max(sides)
         # remove the base side from the sides list
         sides.remove(base)
-        height = self.calculate_height(base, sides)
-        return (height * base) / 2
+
+        return (self.calculate_height(base, sides) * base) / 2
 
 class TestFindAreaOfTriangle(unittest.TestCase):
     def setUp(self):
