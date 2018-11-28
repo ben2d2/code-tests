@@ -38,6 +38,8 @@ Run all tests with:
 
 [Tests](python/tests/test_find_area_of_triangle.py)
 
+-------------------
+
 ### SQL
 Statements written against **postgresql 9.6** and tested using the **psql** command line interface
 
@@ -60,6 +62,7 @@ Statements written against **postgresql 9.6** and tested using the **psql** comm
 
 [Total orders per month](sql/total_orders_per_month.sql)
 
+-------------------
 
 ### Javascript
 Code written with vanilla JS and unit testing with mocha
