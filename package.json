@@ -1,0 +1,22 @@
+{
+  "name": "cm-takehome",
+  "version": "1.0.0",
+  "description": "### Ben Bridges Software Engineer",
+  "main": "group_by_key_function.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ben2d2/cm-takehome.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ben2d2/cm-takehome/issues"
+  },
+  "homepage": "https://github.com/ben2d2/cm-takehome#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
