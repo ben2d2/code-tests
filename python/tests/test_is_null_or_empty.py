@@ -1,8 +1,5 @@
 import unittest
-
-class IsNullOrEmpty():
-    def validate(self, value):
-        return not value
+from python.is_null_or_empty import IsNullOrEmpty
 
 class TestIsNullOrEmpty(unittest.TestCase):
     def setUp(self):
