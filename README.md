@@ -7,6 +7,12 @@ Software Engineer
 ### Python
 Code and tests written using **Python 3.5**, **unittest**, and **pep8 standards**
 
+[python](https://docs.python.org/3.5/)
+
+[unittest](https://docs.python.org/3.5/library/unittest.html)
+
+[pep8](https://www.python.org/dev/peps/pep-0008/)
+
 Run all tests with:
 
 `python -m unittest discover python.tests`
@@ -35,6 +41,10 @@ Run all tests with:
 ### SQL
 Statements written against **postgresql 9.6** and tested using the **psql** command line interface
 
+[postgresql 9.6](https://www.postgresql.org/docs/9.6/index.html)
+
+[psql](https://www.postgresql.org/docs/9.6/app-psql.html)
+
 [Source for creating test db](sql/create_cm_tests_db.sql)
 
 #### Salesperson SQL
@@ -54,6 +64,8 @@ Statements written against **postgresql 9.6** and tested using the **psql** comm
 ### Javascript
 Code written with vanilla JS and unit testing with mocha
 **Ensure mocha is installed**
+
+[mocha](https://www.npmjs.com/package/mocha)
 
 `npm install mocha`
 
