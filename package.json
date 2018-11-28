@@ -2,9 +2,9 @@
   "name": "cm-takehome",
   "version": "1.0.0",
   "description": "### Ben Bridges Software Engineer",
-  "main": "group_by_key_function.js",
+  "main": "src.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha javascript/tests/*.js"
   },
   "repository": {
     "type": "git",

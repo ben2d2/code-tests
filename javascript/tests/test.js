@@ -1,4 +1,4 @@
-const src = require('./src.js');
+const src = require('../src.js');
 const assert = require('assert');
 
 const users = [
