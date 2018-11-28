@@ -1,3 +1,8 @@
+# Question 3
+# Write a function that takes three integer inputs and returns a single
+# output. The inputs are the lengths of the sides of a triangle. The output
+# is the area of that triangle.
+
 class InvalidTriangleException(Exception):
     pass
 

@@ -1,3 +1,8 @@
+# Question 2
+# Write a function that takes a single positive integer, and returns a
+# collection / sequence (e.g. array) of integers. The return value should
+# contain those integers that are  positive divisors  of the input integer.
+
 class FindPositiveDivisors():
     def calculate(self, value):
         divisors = [value]
