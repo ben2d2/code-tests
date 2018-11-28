@@ -1,4 +1,4 @@
-# CM Take-Home Code Test
+# Campaign Manager Take-Home Code Test
 
 ### Ben Bridges
 Software Engineer
