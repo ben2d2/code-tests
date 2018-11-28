@@ -43,6 +43,14 @@ Run all tests with:
 
 [Tests](python/tests/test_find_area_of_triangle.py)
 
+
+#### Most Common Values In a List
+`python -m unittest python.tests.test_most_common_values_in_list`
+
+[Source code](python/most_common_values_in_list.py)
+
+[Tests](python/tests/test_most_common_values_in_list.py)
+
 -------------------
 
 ### SQL
