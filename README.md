@@ -78,7 +78,7 @@ Statements written against **postgresql 9.6** and tested using the **psql** comm
 -------------------
 
 ### Javascript
-Code written with vanilla JS and unit testing with mocha
+Code written with vanilla **Javascript** and unit testing with **mocha**
 
 [mocha](https://www.npmjs.com/package/mocha)
 
