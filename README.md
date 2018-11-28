@@ -34,9 +34,10 @@ Run all tests with:
 
 ### SQL
 Statements written against **postgresql 9.6** and tested using the **psql** command line interface
-##### Salesperson SQL
+
 [Source for creating test db](sql/create_cm_tests_db.sql)
 
+##### Salesperson SQL
 [Salespeople who have an order with George](sql/have_order_with_george.sql)
 
 [Salespeople who do not have an order with George](sql/no_order_with_george.sql)
