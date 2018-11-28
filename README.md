@@ -52,7 +52,7 @@ Statements written against **postgresql 9.6** and tested using the **psql** comm
 
 [psql](https://www.postgresql.org/docs/9.6/app-psql.html)
 
-[Source for creating test db](sql/create_cm_tests_db.sql)
+**Create test db:** [Source sql](sql/create_cm_tests_db.sql)
 
 #### Salesperson SQL
 [Salespeople who have an order with George](sql/have_order_with_george.sql)
