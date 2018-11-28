@@ -1,17 +1,6 @@
 const src = require('./src.js');
 const assert = require('assert');
 
-function groupBy(key) {
-  return function(objectsList) {
-    return objectsList.reduce(function(map, object) {
-      if (object && key in object && typeof(object) === 'object') {
-        (map[object[key]] = map[object[key]] || []).push(object)
-      }
-      return map;
-    }, {});
-  };
-};
-
 const users = [
   { id: 1, name: 'bob' },
   { id: 2, name: 'sally' },
