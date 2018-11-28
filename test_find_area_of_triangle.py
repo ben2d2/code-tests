@@ -1,6 +1,9 @@
 import unittest
 import math
 
+class InvalidTriangleException(Exception):
+    pass
+
 class FindAreaOfTriangle():
     def calculate_height(self, base, values):
         a, b = values
@@ -9,11 +12,13 @@ class FindAreaOfTriangle():
 
     def calculate_area(self, a, b, c):
         sides = [a, b, c]
-        base = max(sides)
-        # remove the base side from the sides list
-        sides.remove(base)
+        base = sides.pop(sides.index(max(sides)))
 
-        return (self.calculate_height(base, sides) * base) / 2
+        if not (sides[0] + sides[1] > base):
+            raise InvalidTriangleException
+        else:
+            height = self.calculate_height(base, sides)
+            return (height * base) / 2
 
 class TestFindAreaOfTriangle(unittest.TestCase):
     def setUp(self):
@@ -24,6 +29,12 @@ class TestFindAreaOfTriangle(unittest.TestCase):
 
     def test_calculate_area(self):
         self.assertEqual(self._class.calculate_area(3, 4, 5), 6)
+
+    def test_raises_exception_with_invalid_sides(self):
+        self.assertRaises(InvalidTriangleException, self._class.calculate_area, 1, 1, 10)
+
+    def test_raises_exception_with_a_negative_value(self):
+        self.assertRaises(InvalidTriangleException, self._class.calculate_area, 1, 1, -10)
 
 if __name__ == '__main__':
     unittest.main()
