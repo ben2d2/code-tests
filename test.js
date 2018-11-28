@@ -8,6 +8,14 @@ const users = [
 ];
 
 
+it ('should not mutate the original list', () => {
+  var usersCopy = JSON.parse(JSON.stringify(users));
+  const groupByKey = src.groupBy('age')
+  groupByKey(users)
+  assert.deepEqual(users, usersCopy)
+});
+
+
 it('should return object with specified keys', () => {
   var expected = {
     bob: [
@@ -31,14 +39,6 @@ it('should return only objects with specified keys', () => {
   }
   const groupByKey = src.groupBy('age')
   assert.deepEqual(groupByKey(users), expected);
-});
-
-
-it ('should not mutate the original list', () => {
-  var usersCopy = JSON.parse(JSON.stringify(users));
-  const groupByKey = src.groupBy('age')
-  groupByKey(users)
-  assert.deepEqual(users, usersCopy)
 });
 
 
