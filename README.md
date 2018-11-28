@@ -63,9 +63,10 @@ Statements written against **postgresql 9.6** and tested using the **psql** comm
 
 ### Javascript
 Code written with vanilla JS and unit testing with mocha
-**Ensure mocha is installed**
 
 [mocha](https://www.npmjs.com/package/mocha)
+
+**Ensure mocha is installed**
 
 `npm install mocha`
 
