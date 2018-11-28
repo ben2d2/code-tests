@@ -34,10 +34,20 @@ Run all tests with:
 
 ### SQL
 Statements written against **postgresql 9.6** and tested using the **psql** command line interface
-##### Salesperson SQL test
+##### Salesperson SQL
 [Source for creating test db](sql/create_cm_tests_db.sql)
 
-[Source test statements](sql/salesperson.sql)
+[Salespeople who have an order with George](sql/have_order_with_george.sql)
+
+[Salespeople who do not have an order with George](sql/no_order_with_george.sql)
+
+[Salespeople with two or more orders](sql/with_two_or_more_orders.sql)
+
+[Salesperson with 3rd highest salary](sql/with_third_highest_salary.sql)
+
+[BigOrders roll up table](sql/big_orders_roll_up.sql)
+
+[Total orders per month](sql/total_orders_per_month.sql)
 
 
 ### Javascript
