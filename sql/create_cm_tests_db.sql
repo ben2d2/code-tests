@@ -1,4 +1,4 @@
--- Using postgresql
+-- Using postgresql 9.6
 -- createdb cm-tests
 -- psql cm-tests
 
