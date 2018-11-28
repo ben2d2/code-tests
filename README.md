@@ -4,6 +4,11 @@
 Software Engineer
 
 ## Code samples and tests
+1. [Python](#python)
+1. [SQL](#sql)
+1. [Javascript](#javascript)
+-------------------
+
 ### Python
 Code and tests written using **Python 3.5**, **unittest**, and **pep8 standards**
 
