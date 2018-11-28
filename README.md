@@ -66,13 +66,9 @@ Code written with vanilla JS and unit testing with mocha
 
 [mocha](https://www.npmjs.com/package/mocha)
 
-**Ensure mocha is installed**
+**Ensure mocha is installed:** `npm install mocha`
 
-`npm install mocha`
-
-Run tests:
-
-`npm test`
+Run tests: `npm test`
 
 [Source code](javascript/src.js)
 
