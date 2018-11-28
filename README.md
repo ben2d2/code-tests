@@ -11,21 +11,21 @@ Run all tests with:
 
 `python -m unittest discover python.tests`
 
-##### IsNullOrEmpty
+#### IsNullOrEmpty
 `python -m unittest python.tests.test_is_null_or_empty`
 
 [Source code](python/is_null_or_empty.py)
 
 [Tests](python/tests/test_is_null_or_empty.py)
 
-##### Find Positive Divisors
+#### Find Positive Divisors
 `python -m unittest python.tests.test_find_positive_divisors`
 
 [Source code](python/find_positive_divisors.py)
 
 [Tests](python/tests/test_find_positive_divisors.py)
 
-##### Find the Area of a Triangle
+#### Find the Area of a Triangle
 `python -m unittest python.tests.test_find_area_of_triangle`
 
 [Source code](python/find_area_of_triangle.py)
@@ -37,7 +37,7 @@ Statements written against **postgresql 9.6** and tested using the **psql** comm
 
 [Source for creating test db](sql/create_cm_tests_db.sql)
 
-##### Salesperson SQL
+#### Salesperson SQL
 [Salespeople who have an order with George](sql/have_order_with_george.sql)
 
 [Salespeople who do not have an order with George](sql/no_order_with_george.sql)
