@@ -6,7 +6,7 @@ Software Engineer
 ## Code samples and tests
 1. [Python](#python)
 1. [SQL](#sql)
-1. [Javascript](#javascript)
+1. [Javascript](#https://github.com/ben2d2/code-tests/javascript)
 -------------------
 
 ### Python
@@ -25,31 +25,31 @@ Run all tests with:
 #### IsNullOrEmpty
 `python -m unittest python.tests.test_is_null_or_empty`
 
-[Source code](python/is_null_or_empty.py)
+[Source code](https://github.com/ben2d2/code-tests/python/is_null_or_empty.py)
 
-[Tests](python/tests/test_is_null_or_empty.py)
+[Tests](https://github.com/ben2d2/code-tests/python/tests/test_is_null_or_empty.py)
 
 #### Find Positive Divisors
 `python -m unittest python.tests.test_find_positive_divisors`
 
-[Source code](python/find_positive_divisors.py)
+[Source code](https://github.com/ben2d2/code-tests/python/find_positive_divisors.py)
 
-[Tests](python/tests/test_find_positive_divisors.py)
+[Tests](https://github.com/ben2d2/code-tests/python/tests/test_find_positive_divisors.py)
 
 #### Find the Area of a Triangle
 `python -m unittest python.tests.test_find_area_of_triangle`
 
-[Source code](python/find_area_of_triangle.py)
+[Source code](https://github.com/ben2d2/code-tests/python/find_area_of_triangle.py)
 
-[Tests](python/tests/test_find_area_of_triangle.py)
+[Tests](https://github.com/ben2d2/code-tests/python/tests/test_find_area_of_triangle.py)
 
 
 #### Most Common Values In a List
 `python -m unittest python.tests.test_most_common_values_in_list`
 
-[Source code](python/most_common_values_in_list.py)
+[Source code](https://github.com/ben2d2/code-tests/python/most_common_values_in_list.py)
 
-[Tests](python/tests/test_most_common_values_in_list.py)
+[Tests](https://github.com/ben2d2/code-tests/python/tests/test_most_common_values_in_list.py)
 
 -------------------
 
@@ -60,20 +60,20 @@ Statements written against **postgresql 9.6** and tested using the **psql** comm
 
 [psql](https://www.postgresql.org/docs/9.6/app-psql.html)
 
-**Create test db:** [Source sql](sql/create_cm_tests_db.sql)
+**Create test db:** [Source sql](https://github.com/ben2d2/code-tests/sql/create_cm_tests_db.sql)
 
 #### Salesperson SQL
-[Salespeople who have an order with George](sql/have_order_with_george.sql)
+[Salespeople who have an order with George](https://github.com/ben2d2/code-tests/sql/have_order_with_george.sql)
 
-[Salespeople who do not have an order with George](sql/no_order_with_george.sql)
+[Salespeople who do not have an order with George](https://github.com/ben2d2/code-tests/sql/no_order_with_george.sql)
 
-[Salespeople with two or more orders](sql/with_two_or_more_orders.sql)
+[Salespeople with two or more orders](https://github.com/ben2d2/code-tests/sql/with_two_or_more_orders.sql)
 
-[Salesperson with 3rd highest salary](sql/with_third_highest_salary.sql)
+[Salesperson with 3rd highest salary](https://github.com/ben2d2/code-tests/sql/with_third_highest_salary.sql)
 
-[BigOrders roll up table](sql/big_orders_roll_up.sql)
+[BigOrders roll up table](https://github.com/ben2d2/code-tests/sql/big_orders_roll_up.sql)
 
-[Total orders per month](sql/total_orders_per_month.sql)
+[Total orders per month](https://github.com/ben2d2/code-tests/sql/total_orders_per_month.sql)
 
 -------------------
 
@@ -86,6 +86,6 @@ Code written with vanilla **Javascript** and unit testing with **mocha**
 
 Run tests: `npm test`
 
-[Source code](javascript/src.js)
+[Source code](https://github.com/ben2d2/code-tests/javascript/src.js)
 
-[Tests](javascript/tests/test.js)
+[Tests](https://github.com/ben2d2/code-tests/javascript/tests/test.js)
