@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/ben2d2/cm-takehome#readme",
   "devDependencies": {
-    "mocha": "^5.2.0"
+    "mocha": "^10.2.0"
   }
 }
